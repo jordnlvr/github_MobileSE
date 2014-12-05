@@ -278,6 +278,7 @@
     <Content Include="pageTemplate.html">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="redirectToPage1.html" />
     <Content Include="scripts\app.js" />
     <Content Include="views\contacts.html" />
     <Content Include="views\home.html" />
