@@ -29,6 +29,7 @@
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="css\basic.css" />
     <Content Include="css\foundation.css">
       <SubType>Content</SubType>
     </Content>
@@ -59,6 +60,7 @@
     <Content Include="css\kendo.mobile.all.min.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="css\magnific-popup.css" />
     <Content Include="css\normalize.css">
       <SubType>Content</SubType>
     </Content>
@@ -74,6 +76,12 @@
     <Content Include="css\ratchetCS.css">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="img\Dollar_coin2.png" />
+    <Content Include="img\Export.png" />
+    <Content Include="js\jquery-1.4.4.min.js" />
+    <Content Include="js\jquery.magnific-popup.js" />
+    <Content Include="js\jquery.simplemodal.js" />
+    <Content Include="js\reveal.css" />
     <Content Include="fonts\AurulentSans-Bold.otf">
       <SubType>Content</SubType>
     </Content>
@@ -232,6 +240,7 @@
     <Content Include="js\jquery-1.11.1.min.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="js\jquery.reveal.js" />
     <Content Include="js\kendo.mobile.min.js">
       <SubType>Content</SubType>
     </Content>
@@ -275,6 +284,7 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="page.html" />
+    <Content Include="page1a.html" />
     <Content Include="pageTemplate.html">
       <SubType>Content</SubType>
     </Content>

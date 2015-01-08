@@ -1,0 +1,330 @@
+﻿<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 1</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link href="css/ratchetCS.css" rel="stylesheet" />
+    <link href="css/ratchet-theme-ios.min.css" rel="stylesheet" />
+    <link href="css/magnific-popup.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!------NAV BAR AT TOP-------------NAV BAR AT TOP-------------NAV BAR AT TOP-------------NAV BAR AT TOP------->
+    <!------------------------------------------------------------------------------------------------------------>
+    <header class="bar bar-nav">
+        <img class="media pull-left" src="img/TEK1trans.png" style="padding-top: 0px;" />
+        <!--TITLE AT THE TOP OF THE PAGE-->
+        <h1 class="title">SE Mobile App</h1>
+        <a class="btn btn-link bnt-nav pull-right" id="btnBack" onclick="goBack()">BACK</a>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------>
+    <!-----FULL CONTENT AREA----------FULL CONTENT AREA----------FULL CONTENT AREA----------FULL CONTENT AREA----->
+    <!------------------------------------------------------------------------------------------------------------>
+
+    <div class="giveMe44Top"></div>
+    <button class="tiny pull-right" onclick="destroyFin()">Reset</button>
+    <div style="background-color: #00498a; height: 88px;">
+        Summary
+    </div>
+    <div class="clearfix"></div>
+    <br />
+    <div class="row">
+        <a class="popup-br formLink" href="#modalBR">
+            <div class="small-4 columns">
+                <ul class="pricing-table-sm">
+                    <li class="top"> </li>
+                    <li class="price">Bill Rate</li>
+                    <li class="description"><label id="lblfbr" class="description">$0.00</label></li>
+                </ul>
+            </div>
+        </a>
+        <a class="popup-dl formLink" href="#modalDL">
+            <div class="small-4 columns">
+                <ul class="pricing-table-sm">
+                    <li class="top"> </li>
+                    <li class="price">DL</li>
+                    <li class="description"><label id="lblfdl" class="description">$0.00</label></li>
+                </ul>
+            </div>
+        </a>
+        <a class="popup-targetgp formLink" href="#modalTargetGP">
+            <div class="small-4 columns">
+                <ul class="pricing-table-sm">
+                    <li class="top"> </li>
+                    <li class="price">Target GP</li>
+                    <li class="description"><label id="lbltargetgp" class="description">0%</label></li>
+                </ul>
+            </div>
+        </a>
+        <a class="popup-weeks formLink" href="#modalWeeks">
+            <div class="small-4 columns">
+                <ul class="pricing-table-sm">
+                    <li class="top"> </li>
+                    <li class="price"># of Weeks</li>
+                    <li class="description"><label id="lblweeks" class="description">0</label></li>
+                </ul>
+            </div>
+        </a>
+    </div>
+
+
+
+
+
+    <!--Bill Rate Popup-->
+    <div id="modalBR" class="white-popup mfp-hide">
+        <h4>Bill Rate</h4>
+        <p>
+            Explanation of the BR or what do expect or how to use it
+        </p>
+        <p>
+            <label>
+                <b>Bill Rate</b>
+                <input type="number" id="fbr" />
+            </label>
+        </p>
+        <p><a class="popup-br-dismiss" href="#">Submit</a></p>
+    </div>
+
+    <!--Direct Labor Rate Popup-->
+    <div id="modalDL" class="white-popup mfp-hide">
+        <h4>Direct Labor Rate</h4>
+        <p>
+            Explanation of the DL or what do expect or how to use it
+        </p>
+        <p>
+            <label>
+                <b>DL</b>
+                <input type="number" id="fdl" />
+            </label>
+        </p>
+        <p><a class="popup-dl-dismiss" href="#">Submit</a></p>
+    </div>
+
+    <!--Target GP Popup-->
+    <div id="modalTargetGP" class="white-popup mfp-hide">
+        <h4>Target GP</h4>
+        <p>
+            Explanation of the Target GP or what do expect or how to use it
+        </p>
+        <p>
+            <label>
+                <b>Target GP</b>
+            </label>
+            <input id="ftargetgp" type="number" size="2" />
+        </p>
+        <p><a class="popup-targetgp-dismiss" href="#">Submit</a></p>
+    </div>
+
+    <!--# of Weeks Popup-->
+    <div id="modalWeeks" class="white-popup mfp-hide">
+        <h4># of Weeks</h4>
+        <p>
+            Explanation of the weeks or what do expect or how to use it
+        </p>
+        <p>
+            <label>
+                <b>Weeks</b>
+            </label>
+            <input id="fweeks" type="number" size="2" />
+        </p>
+        <p><a class="popup-weeks-dismiss" href="#">Submit</a></p>
+    </div>
+
+
+    <!------------------------------------------------------------------------------------------------------------>
+    <!------BOTTOM TAB BAR-------------BOTTOM TAB BAR-------------BOTTOM TAB BAR-------------BOTTOM TAB BAR------->
+    <!------------------------------------------------------------------------------------------------------------>
+    <div class="giveMe44Bottom"></div>
+    <!--TAB CONTROL AT BOTTOM-->
+    <nav class="bar bar-tab">
+        <a class="tab-item active" href="page.html">
+            <span class="icon icon-home2"></span>
+            <span class="tab-label">Home</span>
+        </a>
+        <a class="tab-item" href="kitchenSink.html">
+            <span class="icon icon-beer"></span>
+            <span class="tab-label">Kitchen</span>
+        </a>
+        <a class="tab-item" href="menus.html">
+            <span class="icon icon-star8"></span>
+            <span class="tab-label">Menus</span>
+        </a>
+        <a class="tab-item" href="contacts.html">
+            <span class="icon icon-users5"></span>
+            <span class="tab-label">Contacts</span>
+        </a>
+        <a class="tab-item" href="#">
+            <span class="icon icon-gears"></span>
+            <span class="tab-label">Settings</span>
+        </a>
+    </nav>
+    <!------------------------------------------------------------------------------------------------------------>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/fastclick.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/cession.js"></script>
+    <script src="js/jquery.formatCurrency-1.4.0.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+
+    <script>
+        $(document).foundation();
+
+        //Create the Financials object to be used below
+        var thisFin;
+
+        $(document).ready(function () {
+            //console.log("ready!");
+            loadFin();
+        });
+
+
+        /// <summary>Popup for Bill Rate</summary>
+        $(function () {
+            $('.popup-br').magnificPopup({ type: 'inline', preloader: false, focus: '#fbr', modal: true });
+            $(document).on('click', '.popup-br-dismiss', function (e) {
+                var tbr = $('#fbr').val();
+                thisFin.BR = tbr;
+                //if the user is setting the BR manually, we'll remove the automatic calculation based on the DL
+                //if the user puts this at 0, we will return to calculating it
+                if (tbr > 0) {
+                    thisFin.SetBRManual = true;
+                }
+                else {
+                    thisFin.SetBRManual = false;
+                    thisFin.BR = thisFin.GetBR();
+                }
+                e.preventDefault();
+                $.magnificPopup.close();
+                locallyStoreFinancial();
+                setComponentsValues();
+            });
+        });
+
+        /// <summary>Popup for DL</summary>
+        $(function () {
+            $('.popup-dl').magnificPopup({ type: 'inline', preloader: false, focus: '#fdl', modal: true });
+            $(document).on('click', '.popup-dl-dismiss', function (e) {
+                var tdl = $('#fdl').val();
+                thisFin.DL = tdl;
+                //if the user isn't manually setting the BR, let's calculate it
+                if (!thisFin.SetBRManual) {
+                    thisFin.BR = thisFin.GetBR();
+                }
+                e.preventDefault();
+                $.magnificPopup.close();
+                locallyStoreFinancial();
+                setComponentsValues();
+            });
+        });
+
+        /// <summary>Popup for TargetGP</summary>
+        $(function () {
+            $('.popup-targetgp').magnificPopup({ type: 'inline', preloader: false, focus: '#slideTargetGP', modal: true });
+            $(document).on('click', '.popup-targetgp-dismiss', function (e) {
+                var tgp = $('#ftargetgp').val();
+                thisFin.TargetGP = tgp;
+                //if the user isn't manually setting the BR, let's calculate it
+                if (!thisFin.SetBRManual) {
+                    thisFin.BR = thisFin.GetBR();
+                }
+                e.preventDefault();
+                $.magnificPopup.close();
+                locallyStoreFinancial();
+                setComponentsValues();
+            });
+        });
+
+        /// <summary>Popup for # of Weeks</summary>
+        $(function () {
+            $('.popup-weeks').magnificPopup({ type: 'inline', preloader: false, focus: '#fweeks', modal: true });
+            $(document).on('click', '.popup-weeks-dismiss', function (e) {
+                var tweeks = $('#fweeks').val();
+                thisFin.Weeks = tweeks;
+                //if the user isn't manually setting the BR, let's calculate it
+                if (!thisFin.SetBRManual) {
+                    thisFin.BR = thisFin.GetBR();
+                }
+                e.preventDefault();
+                $.magnificPopup.close();
+                locallyStoreFinancial();
+                setComponentsValues();
+            });
+        });
+
+        /// <summary>Puts value in textbox hen moving slider component</summary>
+        function printValue(sliderID, textbox) {
+            var x = document.getElementById(textbox);
+            var y = document.getElementById(sliderID);
+            x.value = y.value;
+
+
+        }
+
+        function loadFin() {
+            //If there is already a global Financials object
+            if (localStorage.getItem("fin") !== null) {
+                thisFin = JSON.parse(localStorage.getItem("fin"));
+                //alert("localStorage fin was not null");
+            }
+                //If there isn't already a global Financials object
+            else {
+                thisFin = new Financials();
+                //var dataToStore = JSON.stringify(thisFin);
+                //localStorage.setItem("fin", dataToStore);
+                //alert("Apparently localStorage fin is Null");
+                locallyStoreFinancial();
+                for (var a in localStorage) {
+                    console.log(a + ' = ' + localStorage[a]);
+                }
+            }
+
+            setComponentsValues();
+        }
+
+        function locallyStoreFinancial() {
+            var dataToStore = JSON.stringify(thisFin);
+            localStorage.setItem("fin", dataToStore);
+            for (var a in localStorage) {
+                console.log(a + ' = ' + localStorage[a]);
+            }
+        }
+
+        function setComponentsValues() {
+            with (thisFin) {
+                //set bill rates
+                $("#lblfbr").text(displayDollars(BR));
+                $("#fbr").val(displayDecimal(BR));
+                //set direct labor rate(s)
+                $("#lblfdl").text(displayDollars(DL));
+                $("#fdl").val(DL);
+                //set target gp
+                $("#lbltargetgp").text(displayPercentage(TargetGP));
+                $("#ftargetgp").val(displayDecimal(TargetGP));
+                //set weeks
+                $("#lblweeks").text(Weeks);
+                $("#fweeks").val(Weeks);
+            }
+        }
+
+        function destroyFin() {
+            localStorage.removeItem("fin");
+            thisFin = null;
+            delete thisFin;
+            console.log("thisFin was destroyed.")
+            var newFin = new Financials();
+            loadFin(newFin);
+        }
+
+
+    </script>
+
+
+</body>
+</html>
